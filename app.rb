@@ -12,14 +12,5 @@ end
 
   erb :PigLatinizer
 
-end
-
-
-
-
-
-
-
-
-
+  end
 end
