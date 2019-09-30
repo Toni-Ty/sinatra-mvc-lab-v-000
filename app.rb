@@ -10,7 +10,7 @@ end
 post '/piglatinize' do
 
   pig_latin = PigLatinizer.new
-  @piglatin = pig_latin.piglatinize(params[:user_phrase])
+  @piglatin = pig_latin.piglatinize(params[:user_word])
 
   erb :results
   end
