@@ -30,6 +30,7 @@ private
 
     def piglatinize_sentence(sentence)
       sentence.split.collect { |word| piglatinize_word(word) }.join(" ")
+      word
     end
-    word
+    
   end
