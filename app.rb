@@ -4,13 +4,13 @@ class App < Sinatra::Base
 
   get '/'
 
-  erb: index
+  erb :index
 end
 
   get 'post'
 
 
-  erb: PigLatinizer
+  erb :PigLatinizer
 
 
 
