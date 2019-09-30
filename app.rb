@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    puts "Pig Latinizer!"
+  
   erb :user_input
 end
 
