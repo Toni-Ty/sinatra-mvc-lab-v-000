@@ -11,7 +11,7 @@ end
     @Piglatin = PigLatinizer.new(params[:user_input])
 
 
-  erb :PigLatinizer
+  erb :results
 
   end
 end
